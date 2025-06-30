@@ -1,3 +1,5 @@
+package packagePOO;
+import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -15,20 +17,48 @@ public class ContaBancaria {
 
     public void menu(Scanner sc){
         System.out.println("----------------- Conta Bancaria -----------------");
-        System.out.println("Bem vindo "+this.titular)
+        System.out.println("Bem vindo "+this.titular);
         while(true){
             System.out.println("-------------------- MENU -------------------- ");
-            System.out.println("(1) - Mostrar Conta - \n(2) - Depositar - \n(3) - Sacar - \n(0) - Sair -  ")
+            System.out.println("(1) - Mostrar Conta - \n(2) - Depositar - \n(3) - Sacar - \n(0) - Sair -  ");
+            try {
             int opc = sc.nextInt();
-            switch case (opc) {
-                case 1: mostrarConta();
-                        default;
-        }
+            if(opc == 0) {
+            	break;
+            }
+            switch(opc) {
+                case 1:
+                	mostrarConta();
+                break;
+                	
+                case 2:
+                	Depositar();
+                	break;
+                case 3:
+                	Sacar();
+                	break;
+                default:
+                	System.out.println("Opção inválida");
+                	break;
+                        
+            }  
+    }catch(InputMismatchException e) {
+    	System.out.println("Entrada inválida");
+    }catch(Exception e) {
+    	System.out.println("Erro!");
     }
+    	
+    }
+        }
     public void cadastrar(Scanner sc){
         System.out.println("-- Cadastro de conta bancaria --\nDigite o nome de quem ira utilizar a conta: ");
+        try {
         this.titular = sc.next();
-
+        }catch(InputMismatchException e){
+        	
+        }catch(Exception e){
+        	System.out.println("Erro!");
+        }
     }
     public void mostrarConta(){
         System.out.println("Número da conta: "+this.numero);
