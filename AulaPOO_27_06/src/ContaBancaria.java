@@ -9,10 +9,10 @@ public class ContaBancaria {
     double saldo;
     double qtd;
     Scanner sc = new Scanner(System.in);
-
+    Random rand = new Random();
 
     public ContaBancaria(){
-        this.numero = new Random().nextInt(1000, 10000);
+        this.numero = rand.nextInt(9001) + 1000;
     }
 
     public void menu(Scanner sc){
@@ -32,10 +32,10 @@ public class ContaBancaria {
                 break;
                 	
                 case 2:
-                	Depositar();
+                	Depositar(sc);
                 	break;
                 case 3:
-                	Sacar();
+                	Sacar(sc);
                 	break;
                 default:
                 	System.out.println("Opção inválida");
@@ -65,10 +65,30 @@ public class ContaBancaria {
         System.out.println("Número da conta: "+this.titular);
         System.out.println("Número da conta: "+this.saldo);
     }
-    public void Sacar(){
+    public void Sacar(Scanner sc){
+    	System.out.println("Seu saldo é "+this.saldo);
+    	System.out.println("Qual a quantia você deseja sacar: ");
+    	try {
+    	qtd = sc.nextDouble();
+    	System.out.println("Você sacou "+this.qtd);
         this.saldo-= qtd;
+    	}catch(InputMismatchException e) {
+    		System.out.println("Entrada inválida");
+    	}catch(Exception e) {
+    		System.out.println("Erro!");
+    	}
     }
-    public void Depositar(){
-        this.saldo+= qtd;
-    }
+    public void Depositar(Scanner sc){
+    	System.out.println("Seu saldo é "+this.saldo);
+    	System.out.println("Qual a quantia você deseja depositar: ");
+    	try {
+        	qtd = sc.nextDouble();
+        	System.out.println("Você depositou "+this.qtd);
+            this.saldo+= qtd;
+        	}catch(InputMismatchException e) {
+        		System.out.println("Entrada inválida");
+        	}catch(Exception e) {
+        		System.out.println("Erro!");
+        	}
+}
 }
