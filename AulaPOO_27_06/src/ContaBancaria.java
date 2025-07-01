@@ -44,6 +44,7 @@ public class ContaBancaria {
                 System.out.println("Entrada inválida");
             }catch(Exception e) {
                 System.out.println("Erro!");
+                sc.nextLine();
             }
 
         }
