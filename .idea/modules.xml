@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/25_06/25_06.iml" filepath="$PROJECT_DIR$/25_06/25_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23_06Exercicios/ArrayList3/ArrayList3.iml" filepath="$PROJECT_DIR$/23_06Exercicios/ArrayList3/ArrayList3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23_06Exercicios/Arraylistex/Arraylistex.iml" filepath="$PROJECT_DIR$/23_06Exercicios/Arraylistex/Arraylistex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula16_06/Aula16_06.iml" filepath="$PROJECT_DIR$/Aula16_06/Aula16_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula20_06/Aula20_06.iml" filepath="$PROJECT_DIR$/Aula20_06/Aula20_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23_06Exercicios/Aula23_06/Aula23_06.iml" filepath="$PROJECT_DIR$/23_06Exercicios/Aula23_06/Aula23_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AulaPOO_27_06/AulaPOO_27_06.iml" filepath="$PROJECT_DIR$/AulaPOO_27_06/AulaPOO_27_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Devs2Blu.iml" filepath="$PROJECT_DIR$/.idea/Devs2Blu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23_06Exercicios/array2/array2.iml" filepath="$PROJECT_DIR$/23_06Exercicios/array2/array2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23_06Exercicios/array4/array4.iml" filepath="$PROJECT_DIR$/23_06Exercicios/array4/array4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23_06Exercicios/array5/array5.iml" filepath="$PROJECT_DIR$/23_06Exercicios/array5/array5.iml" />
+    </modules>
+  </component>
+</project>
