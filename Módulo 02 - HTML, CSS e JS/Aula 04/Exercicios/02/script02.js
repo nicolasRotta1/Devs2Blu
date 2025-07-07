@@ -8,4 +8,4 @@ function converterMoeda(valor, tipo) {
 
     const resultado = valor / cotacoes[tipo.toLowerCase()];
     return resultado.toFixed(2);
-}
+} 
