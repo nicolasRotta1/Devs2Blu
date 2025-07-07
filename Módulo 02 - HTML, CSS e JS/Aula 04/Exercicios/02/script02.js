@@ -1,3 +1,5 @@
+
+
 function converterMoeda(valor, tipo) {
     const cotacoes = {
         dolar: 5.00,
@@ -5,7 +7,9 @@ function converterMoeda(valor, tipo) {
         libra: 6.30,
         bitcoin: 340000.00
     };
-
+    valor = document.getElementById("valor")
+    opc = document.getElementById
+    
     const resultado = valor / cotacoes[tipo.toLowerCase()];
     return resultado.toFixed(2);
 } 
