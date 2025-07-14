@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 - JSON </title>
+</head>
+<body>
+    <script>
+    //JSON = JavaScript Object Notation
+    let pessoa = {
+        nome : "João",
+        idade : 30,
+        cidade : "São Paulo",
+    }
+
+    //Váriavel que armazena o JSON em tipo String
+    let pessoatxt = JSON.stringify(pessoa);
+    
+    //Váriavel armazenando JSON convertido
+    let pessoaobj = JSON.parse(pessoatxt);
+    
+
+    //console
+    console.log(pessoaobj);
+
+
+</script>
+  

@@ -1,24 +1,14 @@
 const geradorNumero = Math.floor(Math.random() * 100) + 1;
-const verificar = () => {
 const numeroInput = document.getElementById('Numero');
 const  numero = parseInt(numeroInput.value);
-
-const  elementoFeedback = document.getElementById('feedback');
-
-document.getElementById('tentativas').textContent = `Tentativas: ${contadorTentativas}`; 
-document.getElementById('feedback').textContent = '';
-
-let diferenca = Math.abs(geradorNumero - numero);
+let tentativas = 0;
 
 
-if (isNaN(numero) || numero < 1 || numero > 100) {
-    elementoFeedback.textContent = 'Por favor, digite um número válido entre 1 e 100.';
-
-}
-
+function enter(event, valor) {
+tentativas++;
 if (diferenca === 0) {
-        elementoFeedback.textContent = `Parabéns, você acertou! O número era ${geradorNumero} em ${contadorTentativas} tentativas!`;
-        alert('Você acertou! O jogo será reiniciado.'); 
+        elementoFeedback.textContent = `Parabéns, você acertou! O número era ${geradorNumero} em ${tentativas}!`;
+        alert('Você acertou!'); 
         return false
     } else if (diferenca <= 5) {
         elementoFeedback.textContent = 'Quase!!';
@@ -29,5 +19,14 @@ if (diferenca === 0) {
     } else {
         elementoFeedback.textContent = 'Muito longe!';
     }
-   return false; 
+   return false;
+}
+const reiniciarelemento = documen
+t.getElementById('reiniciar');
+
+function reiniciar() {
+    tentativas = 0;
+    geradorNumero = Math.floor(Math.random() * 100) + 1;
+    elementoFeedback.textContent = '';
+    numeroInput.value = '';
 }

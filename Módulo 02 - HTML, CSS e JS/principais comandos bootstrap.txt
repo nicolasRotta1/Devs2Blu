@@ -1,0 +1,117 @@
+Layout e Grid:
+
+container: centraliza e limita a largura do conteúdo.
+container-fluid: usa 100% da largura da tela.
+row: cria uma linha para dividir em colunas.
+col: divide o espaço igualmente.
+col-6: ocupa 50% da linha.
+col-4, col-3, etc.: define tamanho proporcional.
+g-3: adiciona espaçamento entre colunas.
+d-flex: ativa display flex.
+d-grid: ativa display grid.
+flex-column: organiza itens em coluna.
+flex-row: organiza itens em linha.
+justify-content-center: centraliza horizontalmente.
+align-items-center: centraliza verticalmente.
+
+Espaçamento:
+
+m-0, p-0: remove margens ou padding.
+m-1 a m-5: margens com intensidade de 1 a 5.
+p-1 a p-5: padding com intensidade de 1 a 5.
+mt-3, mb-4, ms-2, me-2: margem top, bottom, esquerda, direita.
+pt-2, pb-2: padding top e bottom.
+gap-2, gap-3: espaçamento entre itens flex/grid.
+mx-auto: centraliza com margem automática nas laterais.
+
+Botões:
+
+btn: estilo base de botão.
+btn-primary: botão azul.
+btn-secondary: botão cinza.
+btn-success: botão verde.
+btn-danger: botão vermelho.
+btn-warning: botão amarelo.
+btn-info: botão azul claro.
+btn-outline-primary: botão azul com borda.
+w-100: largura total.
+btn-group: agrupa botões lado a lado.
+
+Tipografia:
+
+text-center: texto centralizado.
+text-end: texto alinhado à direita.
+fw-bold: texto em negrito.
+fw-light: texto com fonte leve.
+text-muted: texto apagado/cinza claro.
+text-uppercase: texto em maiúsculas.
+text-lowercase: texto em minúsculas.
+text-capitalize: primeira letra maiúscula.
+lh-sm: linha com menos espaçamento.
+display-1 a display-6: títulos grandes.
+
+Formulários:
+
+form-control: estiliza inputs, textarea e select.
+form-label: estiliza rótulos dos campos.
+form-check: para checkbox/radio.
+form-check-input: checkbox estilizado.
+form-check-label: texto ao lado do checkbox.
+form-select: estiliza <select>.
+input-group: agrupa input com botão ou texto.
+input-group-text: adiciona texto ao lado do input.
+is-invalid: campo com erro.
+is-valid: campo validado.
+disabled: campo desabilitado.
+readonly: somente leitura.
+placeholder: texto auxiliar no input.
+was-validated: ativa validação Bootstrap no formulário.
+
+Tabelas:
+
+table: aplica estilo de tabela.
+table-striped: listras alternadas.
+table-hover: realce ao passar o mouse.
+table-bordered: bordas em todas as células.
+table-dark: tabela escura.
+text-nowrap: impede quebra de linha no texto.
+
+Alertas:
+
+alert: base dos alertas.
+alert-success: mensagem de sucesso (verde).
+alert-danger: mensagem de erro (vermelha).
+alert-warning: aviso (amarelo).
+alert-info: mensagem de informação (azul claro).
+
+Cores e Fundos:
+
+text-primary: texto azul.
+text-danger: texto vermelho.
+text-success: texto verde.
+text-warning: texto amarelo.
+bg-primary: fundo azul.
+bg-success: fundo verde.
+bg-danger: fundo vermelho.
+bg-warning: fundo amarelo.
+bg-light: fundo cinza claro.
+bg-dark text-white: fundo escuro com texto branco.
+
+Utilitários Diversos:
+
+w-100, w-50, h-100: largura ou altura.
+rounded: cantos arredondados.
+rounded-circle: deixa o elemento redondo.
+shadow: aplica sombra.
+overflow-auto: rolagem se necessário.
+border: adiciona borda.
+border-0: remove borda.
+position-relative: posição relativa.
+position-absolute: posição absoluta.
+top-0, bottom-0: alinhar ao topo ou base.
+start-0, end-0: alinhar à esquerda ou direita.
+z-1, z-3: nível de sobreposição (z-index).
+invisible: deixa o elemento invisível.
+visually-hidden: esconde da tela mas mantém no HTML.
+cursor-pointer: cursor de clique.
+text-break: quebra textos longos automaticamente.
