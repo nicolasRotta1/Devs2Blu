@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise ALL Settled</title>
+</head>
+<body>
+    
+
+    <script>
+        // 1ª promise
+        const promise1 = new Promise((resolve, reject) => {
+            // constante de ação
+            const acao = true;
+
+            //intervalo
+            setTimeout(() => {
+               //Condicional
+               if(acao){
+                resolve('1ª promise executada com sucesso!');
+               }else{
+                    reject('1ª promise com falha!');
+               } 
+            }, 2000);
+        });
+
+           // 1ª promise
+        const promise2 = new Promise((resolve, reject) => {
+            // constante de ação
+            const acao = false;
+
+            //intervalo
+            setTimeout(() => {
+               //Condicional
+               if(acao){
+                resolve('2ª promise executada com sucesso!');
+               }else{
+                    reject('2ª promise com falha!');
+               } 
+            }, 4000);
+        });
+
+           // 1ª promise
+        const promise3 = new Promise((resolve, reject) => {
+            // constante de ação
+            const acao = true;
+
+            //intervalo
+            setTimeout(() => {
+               //Condicional
+               if(acao){
+                resolve('3ª promise executada com sucesso!');
+               }else{
+                reject('3ª promise com falha!');
+               } 
+            }, 6000);
+        });
+
+        //Executar todas as Promisses
+        Promise.allSettled([promise1, promise2, promise3])
+        .then((retornos) => {
+            // 1ª Maneira
+            //for(let indice= 0; indice < retornos.length; indice++){
+            //        if(retornos[indice].status == 'fulfilled'){
+            //            console.log(`A ${indice+1}ª Promise foi executada com sucesso!`)
+            //        }else{
+            //            console.log(`A ${indice+1}ª Promise não foi executada`)
+            //        }
+            //    }
+               
+            //2ª Maneira
+            //retornos.forEach((obj, indice) => {
+                //if(obj.status == 'fulfilled')
+                    //console.log(`A ${indice+1}ª Promise foi executada com sucesso!`);
+               // else
+                   // console.log(`A ${indice+1}ª Promise não foi executada`);
+              // });
+        //})
+        retornos.map((obj, indice) => {
+            console.log(
+                obj.status== 'filfilled'
+                ?
+                (`A ${indice+1}ª Promise foi executada com sucesso!`)
+                :
+                (`A ${indice+1}ª Promise não foi executada!`)
+
+            )
+
+        });
+    })
+    </script>
+</body>
+</html>

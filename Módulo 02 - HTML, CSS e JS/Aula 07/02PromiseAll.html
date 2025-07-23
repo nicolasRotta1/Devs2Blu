@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise ALL</title>
+</head>
+<body>
+    
+
+    <script>
+        // 1ª promise
+        const promise1 = new Promise((resolve, reject) => {
+            // constante de ação
+            const acao = true;
+
+            //intervalo
+            setTimeout(() => {
+               //Condicional
+               if(acao){
+                resolve('1ª promise executada com sucesso!');
+               }else{
+                    reject('1ª promise com falha!');
+               } 
+            }, 2000);
+        });
+
+           // 1ª promise
+        const promise2 = new Promise((resolve, reject) => {
+            // constante de ação
+            const acao = true;
+
+            //intervalo
+            setTimeout(() => {
+               //Condicional
+               if(acao){
+                resolve('2ª promise executada com sucesso!');
+               }else{
+                    reject('2ª promise com falha!');
+               } 
+            }, 4000);
+        });
+
+           // 1ª promise
+        const promise3 = new Promise((resolve, reject) => {
+            // constante de ação
+            const acao = true;
+
+            //intervalo
+            setTimeout(() => {
+               //Condicional
+               if(acao){
+                resolve('3ª promise executada com sucesso!');
+               }else{
+                reject('3ª promise com falha!');
+               } 
+            }, 6000);
+        });
+
+        //Executar todas as Promisses
+        Promise.all([promise1, promise2, promise3])
+        .then((retornos) => console.log(retornos))
+        .catch((retornos) => console.log(retornos))
+        .finally(() => console.log('Todas as Promises foram executadas'))
+    </script>
+</body>
+</html>
