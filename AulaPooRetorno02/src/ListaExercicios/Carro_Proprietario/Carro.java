@@ -53,6 +53,10 @@ public class Carro {
         this.proprietario = proprietario;
     }
 
+    public void cadastrarCarro(){
+        System.out.println();
+    }
+
     public void mostrarDados(){
         System.out.println(getId());
         System.out.println(getModelo());
