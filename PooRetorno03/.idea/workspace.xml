@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7e70c95-ce70-4246-a965-af322831d22b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Atividades_POO/src/ListaExercicios/Pessoa_Endereco/Controller/CidadeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividades_POO/src/ListaExercicios/Pessoa_Endereco/Controller/EnderecoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividades_POO/src/ListaExercicios/Pessoa_Endereco/Controller/PessoaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividades_POO/src/ListaExercicios/Pessoa_Endereco/Models/Cidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Carro_Proprietario/Carro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Carro_Proprietario/Motor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Carro_Proprietario/Proprietario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Classe_personagem/Classe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Classe_personagem/Habilidade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Classe_personagem/Personagem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Computador_Processador/Computador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Computador_Processador/Marca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Computador_Processador/Processador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Pessoa_Endereco/Endereco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Pessoa_Endereco/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooRetorno03.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="30Kx8zjjEzzSG284hWvp9xjl9S6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Nicolas/Documents/Devs2Blu/PooRetorno03"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7e70c95-ce70-4246-a965-af322831d22b" name="Changes" comment="" />
+      <created>1753389910262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753389910262</updated>
+    </task>
+    <servers />
+  </component>
+</project>
