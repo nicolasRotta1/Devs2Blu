@@ -26,7 +26,7 @@ function gerarProdutos(qtd) {
   return produtos;
 }
 // Informar a quantidade de produtos a serem gerados via parametro
-const produtos = gerarProdutos(100);
+const produtos = gerarProdutos(30);
 
 let carrinho = [];
 
@@ -135,9 +135,9 @@ function limparCarrinho() {
 
 function removerDoCarrinho(id) {
     const indice = carrinho.findIndex(p => p.id === id);
-    if (indice !== -1) {
+    if (indice === -1) {
         const produto = carrinho[indice]; 
-        produto.estoque++; // devolve o produto ao estoque
+        produto.estoque++; 
         carrinho.splice(indice, 1); 
         atualizarCarrinho();
         renderizarProdutos();

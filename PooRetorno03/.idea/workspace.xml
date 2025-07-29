@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7e70c95-ce70-4246-a965-af322831d22b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Atividades_POO/src/ListaExercicios/Pessoa_Endereco/Controller/CidadeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Atividades_POO/src/ListaExercicios/Pessoa_Endereco/Controller/EnderecoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Atividades_POO/src/ListaExercicios/Pessoa_Endereco/Controller/PessoaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Atividades_POO/src/ListaExercicios/Pessoa_Endereco/Models/Cidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Carro_Proprietario/Carro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Carro_Proprietario/Motor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Carro_Proprietario/Proprietario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Classe_personagem/Classe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Classe_personagem/Habilidade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Classe_personagem/Personagem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Computador_Processador/Computador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Computador_Processador/Marca.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Computador_Processador/Processador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Pessoa_Endereco/Endereco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AulaPooRetorno02/src/ListaExercicios/Pessoa_Endereco/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooRetorno03.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SistemaLoja_MVC/src/Controllers/CategoriaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SistemaLoja_MVC/src/Models/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Módulo 02 - HTML, CSS e JS/Projeto_Loja_Virtual/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Módulo 02 - HTML, CSS e JS/Projeto_Loja_Virtual/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Módulo 02 - HTML, CSS e JS/Projeto_Loja_Virtual/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Módulo 02 - HTML, CSS e JS/Projeto_Loja_Virtual/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SistemaLoja_MVC/src/Controllers/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SistemaLoja_MVC/src/Controllers/ProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SistemaLoja_MVC/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SistemaLoja_MVC/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SistemaLoja_MVC/src/Models/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SistemaLoja_MVC/src/Models/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +18,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="30Kx8zjjEzzSG284hWvp9xjl9S6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,7 +32,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Nicolas/Documents/Devs2Blu/PooRetorno03"
+    "last_opened_file_path": "C:/Users/moc/Documents/Devs/Devs2Blu/PooRetorno03"
   }
 }]]></component>
   <component name="TaskManager">
