@@ -28,12 +28,15 @@ function gerarProdutos(qtd) {
 // Informar a quantidade de produtos a serem gerados via parametro
 const produtos = gerarProdutos(30);
 
+// Variavel para armazenar os produtos no carrinho
 let carrinho = [];
 
 function renderizarProdutos(lista = produtos) {
+    // Cria uma div (container) para os produtos
     const container = document.getElementById("produtos-container");
     container.innerHTML = "";
-
+    
+    //Para cada produto cria-se uma div(card) com as informações do produto
     lista.forEach(prod => {
         const card = document.createElement("div");
         card.className = "card";
@@ -46,9 +49,10 @@ function renderizarProdutos(lista = produtos) {
             <p>Estoque: ${prod.estoque}</p>
         `;
 
-        
+        // Cria um botão para cada card
         const botao = document.createElement("button");
-        // Caso o estoque não estiver vazio o botão e liberado
+        // Caso o estoque for maior que 0 o botão e habilitado
+        // Caso o estoque for 0 o botão e desabilitado
         if (prod.estoque > 0) {
             botao.textContent = "Adicionar";
             botao.onclick = () => adicionarCarrinho(prod.id);
@@ -135,14 +139,16 @@ function limparCarrinho() {
 
 function removerDoCarrinho(id) {
     const indice = carrinho.findIndex(p => p.id === id);
-    if (indice === -1) {
-        const produto = carrinho[indice]; 
-        produto.estoque++; 
-        carrinho.splice(indice, 1); 
+    if (indice !== -1) {
+        const produtoRemovido = carrinho[indice];
+        const original = produtos.find(p => p.id === produtoRemovido.id); 
+        if (original) original.estoque++; 
+        carrinho.splice(indice, 1);
         atualizarCarrinho();
         renderizarProdutos();
     }
 }
+
 
 function finalizarCompra() {
     //limpa o carrinho
@@ -158,6 +164,7 @@ function filtrarCategoria(cat) {
 }
 
 function pesquisarProduto() {
+    // Pega o termo do elemento pesquisa
     const termo = document.getElementById("pesquisa").value.toLowerCase();
 
     //Filtra os produtos que tem este termo no nome
