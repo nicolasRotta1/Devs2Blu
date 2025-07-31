@@ -11,7 +11,6 @@ Este é um projeto simples de **Loja Virtual** desenvolvido em HTML, CSS e JavaS
 * Exibição de produtos com nome, categoria, preço e estoque disponível.
 * Filtro de produtos por categoria (Eletrônicos, Roupas, Livros).
 * Busca dinâmica por nome do produto.
-* Adição de produtos ao carrinho com controle automático do estoque.
 * Visualização do carrinho com agrupamento de produtos e quantidade.
 * Remoção individual de produtos do carrinho.
 * Limpeza total do carrinho com reposição do estoque.
@@ -50,13 +49,13 @@ Este é um projeto simples de **Loja Virtual** desenvolvido em HTML, CSS e JavaS
 
 ## Imagens das Telas
 
-![Tela Inicial](https://user-images.githubusercontent.com/121154494/328393432-9219a63a-88d1-4e3d-bd2d-e8a32084b4a3.png)
+> ![Tela Inicial](https://github.com/user-attachments/assets/0c2f88ca-e3f6-4dc2-9213-40de305c353c)
 
 *Descrição: Tela inicial com o filtro de categorias e barra de pesquisa.*
 
 ---
 
-![Carrinho de Compras](https://user-images.githubusercontent.com/121154494/328393809-896caeae-0a0b-46ed-b18e-4e8f54e503e3.png)
+> ![Carrinho de Compras](https://github.com/user-attachments/assets/6510b995-fb5f-481d-9909-05fdb63771aa)
 
 *Descrição: Exemplo do carrinho com produtos adicionados.*
 
