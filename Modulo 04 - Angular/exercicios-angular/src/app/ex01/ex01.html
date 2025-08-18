@@ -1,0 +1,20 @@
+<form>
+    <input #Camponota01="ngModel" required name="nota1" type="number" [(ngModel)]="n1" placeholder="Nota 01">
+    <input #Camponota02="ngModel" required name="nota2" type="number" [(ngModel)]="n2" placeholder="Nota 02">
+    <input #Camponota03="ngModel" required name ="nota3"type="number" [(ngModel)]="n3" placeholder="Nota 03">
+      <button type="submit" [disabled]="Camponota01.invalid || Camponota02.invalid || Camponota03.invalid" (click)="calcularMedia()"> Enviar </button>
+
+
+</form>
+ @if (media !== undefined) {
+    @if (media > 6) {
+        <p class="aprovado"[ngClass]="aprovado">Aprovado</p>
+    } @else {
+        <p class="reprovado" [ngClass]="reprovado">Reprovado</p>
+    }
+
+    <p>Media: {{ media }}</p>
+
+    <p>Aprovados: {{aprovados}}</p>
+    <p>Reprovados: {{reprovados}}</p>
+}

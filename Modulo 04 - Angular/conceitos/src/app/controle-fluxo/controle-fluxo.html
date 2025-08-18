@@ -1,0 +1,33 @@
+<!-- 
+ O QUE É?
+ R: É uma técnica para deixar o arquivo HTML dinâmico.
+ Ele trabalha com o DOM, podendo: criar, remover, exibir e ocultar elementos.
+ A Partir de qual versão do angular esta disponivel?
+ R: A partir da versão 17.
+
+ Quais são os controles de fluxo?
+ R: @if, @switch e @for.
+ -->
+
+ <h1>CONTROLE DE FLUXO - @IF</h1>
+ @if (media >= 7) {
+    <p>Aprovado!</p>
+    } @else if (media >= 5) {
+    <p>Recuperação!</p>
+    } @else {
+    <p>Reprovado!</p>
+    }
+    <hr>
+
+    <h1>CONTROLE DE FLUXO - @SWITCH</h1>
+    @switch (linguagem) {
+        @case ('Java'){<p> Linguagem de programação mantida pela Oracle</p>}
+        @case ('C#') {<p>Linguagem de programação mantida pela Microsoft</p>}
+        @default {<p>Linguagem de programação desconhecida</p>}
+    }
+
+    <h1>CONTROLE DE FLUXO - @IF</h1>
+    @for (nome of nomes; track $index) {
+        <p>Nome: {{nome}}</p>
+    }@empty {<p> Não a nomes para exibir</p>}
+    
