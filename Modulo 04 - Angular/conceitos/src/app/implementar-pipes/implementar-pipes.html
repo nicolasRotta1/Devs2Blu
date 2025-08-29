@@ -1,0 +1,11 @@
+<p>{{'Nícolas' | saudacao}}</p>
+
+<!-- 
+
+-->
+
+<ul>
+    @for (nome of nomes; track $index) {
+        <li>{{nome | saudacao}}</li>
+    }
+</ul>

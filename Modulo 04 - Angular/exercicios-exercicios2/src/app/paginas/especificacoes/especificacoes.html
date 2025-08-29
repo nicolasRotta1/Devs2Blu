@@ -1,0 +1,113 @@
+<h2>Computadores</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Identificador</th>
+      <th>Marca</th>-
+      <th>Modelo</th>
+      <th>CPU</th>
+      <th>RAM</th>
+      <th>Armazenamento</th>
+      <th>GPU</th>
+      <th>Tela</th>
+      <th>Bateria</th>
+      <th>Peso</th>
+      <th>Dimensões</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (computador of computadores; track computador.identificador; let i = $index) {
+      <tr>
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{ computador.identificador }}</td>
+        <td>{{ computador.marca }}</td>
+        <td>{{ computador.modelo }}</td>
+        <td>{{ computador.cpu }}</td>
+        <td>{{ computador.ram }}</td>
+        <td>{{ computador.armazenamento }}</td>
+        <td>{{ computador.gpu }}</td>
+        <td>{{ computador.tela }}</td>
+        <td>{{ computador.bateria }}</td>
+        <td>{{ computador.peso }}</td>
+        <td>{{ computador.dimensoes }}</td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+<h2>Smartphones</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Identificador</th>
+      <th>Marca</th>
+      <th>Modelo</th>
+      <th>Processador</th>
+      <th>RAM</th>
+      <th>Armazenamento</th>
+      <th>Tela</th>
+      <th>Câmera</th>
+      <th>Bateria</th>
+      <th>Peso</th>
+      <th>Dimensões</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (smartphone of smartphones; track smartphone.identificador; let i = $index) {
+      <tr>
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{ smartphone.identificador }}</td>
+        <td>{{ smartphone.marca }}</td>
+        <td>{{ smartphone.modelo }}</td>
+        <td>{{ smartphone.processador }}</td>
+        <td>{{ smartphone.ram }}</td>
+        <td>{{ smartphone.armazenamento }}</td>
+        <td>{{ smartphone.tela }}</td>
+        <td>{{ smartphone.camera }}</td>
+        <td>{{ smartphone.bateria }}</td>
+        <td>{{ smartphone.peso }}</td>
+        <td>{{ smartphone.dimensoes }}</td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+<h2>Tablets</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Identificador</th>
+      <th>Marca</th>
+      <th>Modelo</th>
+      <th>Processador</th>
+      <th>RAM</th>
+      <th>Armazenamento</th>
+      <th>Tela</th>
+      <th>Câmera</th>
+      <th>Bateria</th>
+      <th>Peso</th>
+      <th>Dimensões</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (tablet of tablets; track tablet.identificador; let i = $index) {
+      <tr>
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{ tablet.identificador }}</td>
+        <td>{{ tablet.marca }}</td>
+        <td>{{ tablet.modelo }}</td>
+        <td>{{ tablet.processador }}</td>
+        <td>{{ tablet.ram }}</td>
+        <td>{{ tablet.armazenamento }}</td>
+        <td>{{ tablet.tela }}</td>
+        <td>{{ tablet.camera }}</td>
+        <td>{{ tablet.bateria }}</td>
+        <td>{{ tablet.peso }}</td>
+        <td>{{ tablet.dimensoes }}</td>
+      </tr>
+    }
+  </tbody>
+</table>
