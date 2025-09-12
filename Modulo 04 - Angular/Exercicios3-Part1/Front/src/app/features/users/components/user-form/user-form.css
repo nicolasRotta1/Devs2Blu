@@ -1,0 +1,18 @@
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* duas colunas */
+  gap: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+button {
+  grid-column: span 2; /* botão ocupa as 2 colunas */
+  padding: 12px;
+  font-size: 16px;
+}

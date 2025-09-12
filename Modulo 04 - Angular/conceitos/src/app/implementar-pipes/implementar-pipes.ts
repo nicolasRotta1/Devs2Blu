@@ -9,7 +9,5 @@ import { SaudacaoPipe } from '../pipes/saudacao-pipe';
   styleUrl: './implementar-pipes.css'
 })
 export class ImplementarPipes {
-  nomes: string[] = ['Nícolas', 'João', 'Maria', 'Ana', 'Pedro'];
-  
-
+  nomes:string[] = ['Bruna', 'Carla', 'Guilherme', 'Larissa', 'Paulo'];
 }

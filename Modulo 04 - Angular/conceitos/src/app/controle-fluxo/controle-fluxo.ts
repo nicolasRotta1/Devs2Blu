@@ -11,5 +11,5 @@ export class ControleFluxo {
 
   linguagem:string = 'Java';
 
-  nomes:String[] = ['João', 'Maria', 'José'];
+  nomes:string[] = [];
 }

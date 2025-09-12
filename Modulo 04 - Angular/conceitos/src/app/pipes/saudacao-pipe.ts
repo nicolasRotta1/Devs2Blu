@@ -6,6 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class SaudacaoPipe implements PipeTransform {
 
   transform(nome:string): string {
+    //return 'Olá '+nome+'!';
     return `Olá ${nome}!`;
   }
 

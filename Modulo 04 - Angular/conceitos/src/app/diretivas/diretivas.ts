@@ -4,32 +4,33 @@ import { EventoMouse } from '../minha-diretiva/evento-mouse';
 
 @Component({
   selector: 'app-diretivas',
-  imports: [CommonModule, EventoMouse],
+  imports: [CommonModule, EventoMouse], // Para funcionar as diretivas
   templateUrl: './diretivas.html',
   styleUrl: './diretivas.css'
 })
 export class Diretivas {
-  //Vetor contendo a situação dos alunos na escola
+  // Vetor contendo a situção dos alunos na escola
   alunos:string[] = ['aprovado', 'aprovado', 'reprovado', 'aprovado'];
 
-  //Váriaveis
+  // Variáveis
   corFonte:string = 'yellow';
   corFundo:string = 'green';
 
-  //Objeto
+  // Objeto
   estilo = {
     'color':this.corFonte,
     'background-color':this.corFundo
   }
 
-  //Função para alterar as propriedades CSS
+  // Função para alterar as propriedades CSS
   alterarEstilo():void{
-    this.corFonte = this.corFonte === 'yellow' ? 'black' : 'yellow';
-    this.corFundo = this.corFundo === 'green' ? 'red' : 'green';
+    this.corFonte = this.corFonte === 'yellow' ? 'blue' : 'yellow';
+    this.corFundo = this.corFundo === 'green'  ? 'red'  : 'green';
 
     this.estilo = {
       'color':this.corFonte,
       'background-color':this.corFundo
+    }
   }
-  }
+
 }

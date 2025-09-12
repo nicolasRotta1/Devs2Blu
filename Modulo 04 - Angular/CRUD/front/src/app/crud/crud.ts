@@ -90,17 +90,17 @@ export class Crud {
   alterar():void{
     this.servico.alterar(this.formularioPessoa.value)
     .subscribe(pessoa => {
-      
-      // Obter o indice da pessoa alterada no vetor
+
+      // Obter o índice da pessoa alterada no vetor
       const indicePessoaAlterada = this.vetor.findIndex(obj => obj.id === pessoa.id);
 
       // Atualizar valor do vetor
       this.vetor[indicePessoaAlterada] = pessoa;
 
-      // Forçar a atualização do vetor
+      // Forçar a atualização do vetor (para exibir corretamente na tabela)
       this.vetor = [...this.vetor];
 
-      // Reset do formulário e Limpeza dos campos
+      // Visibilidade dos botões e limpeza dos campos
       this.cancelar();
     });
   }
@@ -109,20 +109,20 @@ export class Crud {
   remover():void{
     this.servico.remover(this.formularioPessoa.value.id)
     .subscribe(pessoa => {
-        
-      // Obter o indice da pessoa alterada no vetor
+
+      // Obter o índice da pessoa removida no vetor
       const indicePessoaRemovida = this.vetor.findIndex(obj => obj.id === pessoa.id);
 
       // Efetuar a remoção no vetor
       this.vetor.splice(indicePessoaRemovida, 1);
 
-      // Forçar a atualização do vetor
+      // Forçar a atualização do vetor (para exibir corretamente na tabela)
       this.vetor = [...this.vetor];
 
-      // Reset do formulário e Limpeza dos campos
+      // Visibilidade dos botões e limpeza dos campos
       this.cancelar();
     });
-  }
 
+  }
 
 }

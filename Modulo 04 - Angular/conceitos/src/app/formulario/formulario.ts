@@ -10,5 +10,5 @@ import { FormsModule } from '@angular/forms';
 export class Formulario {
   texto:string = '';
 
-  pessoa:any = {nome:'', cidade:''}
+  pessoa:any = {nome:'', cidade:''};
 }

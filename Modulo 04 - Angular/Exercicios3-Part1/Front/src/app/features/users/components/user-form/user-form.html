@@ -1,0 +1,36 @@
+<form [formGroup]="formUsuario" class="form-container">
+
+  <mat-form-field>
+    <mat-label>ID</mat-label>
+    <input matInput formControlName="id" placeholder="ID">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Nome</mat-label>
+    <input matInput formControlName="nome" placeholder="Nome">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Email</mat-label>
+    <input matInput formControlName="email" placeholder="Email">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Data de nascimento</mat-label>
+    <input matInput formControlName="dataNascimento" placeholder="DD/MM/AAAA">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Renda</mat-label>
+    <input matInput formControlName="renda" placeholder="Renda">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Grau de escolaridade</mat-label>
+    <input matInput formControlName="escolaridade" placeholder="Escolaridade">
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">
+    Salvar
+  </button>
+</form>

@@ -9,15 +9,16 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angula
   styleUrl: './formulario-reativo.css'
 })
 export class FormularioReativo {
-
-  //Objeto
+  
+  // Objeto
   pessoa = new FormGroup({
-    nome: new FormControl('', [Validators.required, Validators.minLength(3) ]),
-    idade: new FormControl('', [Validators.required, Validators.min(0), Validators.max(120) ])
+    nome:  new FormControl('', [Validators.required, Validators.minLength(3)]),
+    idade: new FormControl('', [Validators.required, Validators.min(0), Validators.max(120)])
   });
 
-  //Ciclo de vida (executa após o componente ser criado/montado)
+  // Ciclo de vida (executa após o componente ser criado/montado)
   ngOnInit():void{
-    alert('Executando uma ação ao carregar o componente');
-}
+    alert('Executando uma ação ao carregar o componente.');
+  }
+  
 }
